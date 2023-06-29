@@ -1,0 +1,368 @@
+body {
+    margin: 0px;
+}
+
+.Title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(102, 154, 243);
+
+    .titlebtn1 {
+        display: flex;
+        margin-left: 3vw;
+        margin-right: 5vw;
+        background-color: rgb(102, 154, 243);
+        font-size: 22px;
+        color: white;
+        border: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .titlebtns {
+        display: flex;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        background-color: rgb(102, 154, 243);
+        font-size: 18px;
+        color: white;
+        border: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .UserPic {
+        display: flex;
+        margin-left: 5vw;
+        margin-right: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        height: 50px;
+        width: 32px;
+    }
+
+    .UserInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+
+        .UserName {
+            display: flex;
+            border: none;
+            background-color: rgb(102, 154, 243);
+            font-size: 18px;
+            color: white;
+            margin-bottom: 0.5vh;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .btns {
+            display: flex;
+            flex-direction: row;
+
+            .btn1 {
+                display: flex;
+                border: none;
+                border-radius: 5px;
+                padding: 5px;
+                background-color: rgb(251, 242, 143);
+                color: rgb(102, 154, 243);
+                margin-left: 2px;
+
+                &:hover {
+                    background-color: rgb(199, 186, 51);
+                }
+            }
+
+            .btn2 {
+                display: flex;
+                border: none;
+                border-radius: 5px;
+                padding: 5px;
+                background-color: rgb(72, 193, 35);
+                color: rgb(255, 255, 255);
+                margin-left: 5px;
+
+                &:hover {
+                    background-color: rgb(40, 156, 4);
+                }
+            }
+
+            .speed {
+                display: flex;
+                margin-left: 5px;
+                background-color: rgb(34, 106, 232);
+                color: white;
+                border-radius: 5px;
+                padding-left: 1vw;
+                padding-right: 1vw;
+            }
+        }
+    }
+}
+
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh;
+
+    .publicContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        border: 1px solid white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 0.5vw rgb(62, 160, 221, .6);
+        margin-bottom: 2vh;
+
+        .pubword {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin-right: 20vw;
+            margin-left: 1vw;
+            margin-top: 3vh;
+            margin-bottom: 1vh;
+
+            .words {
+                display: flex;
+                font-size: 24px;
+            }
+
+            .info {
+                display: flex;
+                font-size: 12px;
+            }
+        }
+
+        .pubbtn {
+            display: flex;
+            background-color: rgb(70, 163, 30);
+            color: white;
+            margin-right: 35vw;
+            margin-left: 1vw;
+            margin-top: 2vh;
+            margin-bottom: 3vh;
+            border: none;
+            border-radius: 15px;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+
+            &:hover {
+                background-color: rgb(45, 126, 11);
+            }
+        }
+    }
+
+    .privateContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1vh;
+
+
+        .offlineBlock,
+        .onlineBlock {
+            display: flex;
+            flex-direction: column;
+            margin: 0.7vw;
+            border: 1px solid white;
+            border-radius: 20px;
+            box-shadow: 0px 0px 0.5vw rgb(62, 160, 221, .6);
+
+            .Infos {
+                display: flex;
+                flex-direction: column;
+                margin-top: 3vh;
+                margin-left: 1vw;
+                margin-right: 5vw;
+                margin-bottom: 2vh;
+
+                .Big {
+                    display: flex;
+                    font-size: 24px;
+                }
+
+                .Small {
+                    display: flex;
+                    font-size: 12px;
+                }
+            }
+
+            .privbtn1 {
+                display: flex;
+                background-color: rgb(52, 122, 242);
+                color: white;
+                margin-left: 1vw;
+                margin-right: 10vw;
+                margin-top: 1vh;
+                margin-bottom: 3vh;
+                border: none;
+                border-radius: 15px;
+                vertical-align: middle;
+                text-align: center;
+                padding-left: 2vw;
+                padding-right: 2vw;
+                padding-top: 2vh;
+                padding-bottom: 2vh;
+
+                &:hover {
+                    background-color: rgb(26, 93, 209);
+                }
+            }
+
+            .privbtn2 {
+                display: flex;
+                background-color: rgb(245, 170, 30);
+                color: white;
+                margin-left: 1vw;
+                margin-right: 10vw;
+                margin-top: 1vh;
+                margin-bottom: 3vh;
+                border: none;
+                border-radius: 15px;
+                vertical-align: middle;
+                text-align: center;
+                padding-left: 2vw;
+                padding-right: 2vw;
+                padding-top: 2vh;
+                padding-bottom: 2vh;
+
+                &:hover {
+                    background-color: rgb(198, 133, 11);
+                }
+            }
+        }
+    }
+
+}
+
+.PracticeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 13vw;
+    margin-right: 30vw;
+
+    .intro1 {
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(61, 105, 186);
+    }
+
+    .intro2 {
+        display: flex;
+        font-size: 14px;
+    }
+
+    .publicContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        border: 1px solid white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 0.5vw rgb(62, 160, 221, .6);
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+
+        .pubword {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin-right: 20vw;
+            margin-left: 1vw;
+            margin-top: 3vh;
+            margin-bottom: 1vh;
+
+            .words {
+                display: flex;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+        }
+
+        .Players {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            label {
+                display: flex;
+                margin-left: 1vw;
+            }
+
+            .runningCar {
+                display: flex;
+                width: 50vw;
+                margin-left: 1vw;
+                margin-top: 2vh;
+                margin-bottom: 3vh;
+                padding-left: 2vw;
+                border-bottom: 2px solid orange;
+                border-bottom-style: dashed;
+            }
+        }
+
+        .GameSetting {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 3vh;
+
+            .Back {
+                display: flex;
+                margin-left: 3vw;
+                margin-right: 15vw;
+                border: none;
+                border-radius: 10px;
+                background-color: rgb(245, 170, 30);
+                padding: 2vh;
+                color: white;
+
+                &:hover {
+                    background-color: rgb(198, 133, 11);
+                }
+            }
+
+            .Start {
+                display: flex;
+                margin-right: 3vw;
+                margin-left: 15vw;
+                border: none;
+                border-radius: 10px;
+                background-color: rgb(45, 228, 192);
+                padding: 2vh;
+                color: white;
+
+                &:hover {
+                    background-color: rgb(11, 176, 143);
+                }
+            }
+        }
+    }
+}
