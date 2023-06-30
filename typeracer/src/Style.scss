@@ -299,7 +299,7 @@ body {
 
             .words {
                 display: flex;
-                font-size: 18px;
+                font-size: 20px;
                 font-weight: bold;
             }
 
@@ -324,6 +324,24 @@ body {
                 padding-left: 2vw;
                 border-bottom: 2px solid orange;
                 border-bottom-style: dashed;
+            }
+        }
+
+        .TypeInfo {
+            display: flex;
+            flex-direction: column;
+            margin: 1vw;
+            background-color: rgb(221, 237, 253);
+            border-radius: 20px;
+
+            .TypedWord {
+                display: flex;
+                margin-left: 1vw;
+                margin-right: 1vw;
+                margin-bottom: 2vh;
+                font-size: 18px;
+                border-radius: 5px;
+                background-color: rgb(243, 243, 243);
             }
         }
 

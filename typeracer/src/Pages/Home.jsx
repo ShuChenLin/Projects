@@ -1,8 +1,20 @@
+import { useNavigate } from "react-router-dom";
+
 function Home() {
+    const navigate = useNavigate();
+
+    const goPractice = () => {
+        navigate('practice');
+    }
+
+    const goHome = () => {
+        navigate("/");
+    }
+
     return (
         <div>
             <div className="Title">
-                <button className="titlebtn1">TypeRacer</button>
+                <button className="titlebtn1" onClick={goHome}>TypeRacer</button>
                 <button className="titlebtns">Null</button>
                 <button className="titlebtns">Discord</button>
                 <button className="titlebtns">About</button>
@@ -29,7 +41,7 @@ function Home() {
                             <label className="Big">Typing Test</label>
                             <label className="Small">Improve your skills by yourself</label>
                         </div>
-                        <button className="privbtn1">Practice Yourself</button>
+                        <button className="privbtn1" onClick={goPractice}>Practice Yourself</button>
                     </div>
                     <div className="onlineBlock">
                         <div className="Infos">
