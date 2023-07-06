@@ -56,7 +56,7 @@ function Practice() {
             }
         }
 
-        if (!typedWrong && value[value.length - 1] === ' ') {
+        if (!typedWrong && value[value.length - 1] === ' ' && text[tmpText.length - 1] === ' ') {
             setTypedCorrect(tmpText);
             setTypedText('');
         }
