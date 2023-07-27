@@ -5,6 +5,7 @@ function Home() {
 
     const goPractice = () => {
         navigate('practice');
+        console.log("test for git in this computer");
     }
 
     const goHome = () => {
